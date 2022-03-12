@@ -1,5 +1,5 @@
 {
-  "app": "node build/index.js",
+  "app": "node --es-module-specifier-resolution=node build/index.js",
   "watch": {
     "include": ["src/**"]
   },

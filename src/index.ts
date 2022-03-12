@@ -1,5 +1,5 @@
 import * as cdk from 'aws-cdk-lib'
-import { MyStack } from './stack.js'
+import { MyStack } from './stack'
 
 const app = new cdk.App()
 new MyStack(app, 'MyStack', {
