@@ -1,0 +1,25 @@
+{
+  "name": "esm-cdk",
+  "type": "module",
+  "version": "0.0.0",
+  "decription": "",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "pnpm build -- -w"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "aws-cdk-lib": "2.16.0",
+    "cdk": "^2.16.0",
+    "constructs": "^10.0.85",
+    "ts-node": "^10.7.0",
+    "typescript": "next"
+  },
+  "license": "MIT"
+}
